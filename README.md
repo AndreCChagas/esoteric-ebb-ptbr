@@ -4,20 +4,17 @@ Tradução de fã do **Esoteric Ebb** para o português do Brasil: diálogos, es
 
 ## ⬇️ Download
 
-Baixe a versão mais recente em **[Releases](https://github.com/AndreCChagas/esoteric-ebb-ptbr/releases/latest)**:
+Baixe o arquivo `EsotericEbb-PTBR-<versão>-completo.zip` da versão mais recente em **[Releases](https://github.com/AndreCChagas/esoteric-ebb-ptbr/releases/latest)**.
 
-| Arquivo | Para quem |
-|---|---|
-| `EsotericEbb-PTBR-<versão>-completo.zip` | Nunca instalou mod no jogo. Já vem com o BepInEx. |
-| `EsotericEbb-PTBR-<versão>-traducao.zip` | Já tem o BepInEx 6 (IL2CPP) ou está atualizando a tradução. |
+O pacote já vem com o BepInEx (o carregador de mods) e serve tanto para instalar do zero quanto para atualizar.
 
 ## 🛠️ Instalação
 
 1. Na Steam: botão direito em **Esoteric Ebb** → **Gerenciar** → **Explorar arquivos locais**.
 2. Extraia **todo** o conteúdo do ZIP nessa pasta (onde está `Esoteric Ebb.exe`) e substitua os arquivos.
-3. Abra o jogo. A **primeira** abertura com o pacote completo demora alguns minutos enquanto o BepInEx se prepara.
+3. Abra o jogo. A **primeira** abertura demora alguns minutos enquanto o BepInEx se prepara.
 
-**Atualizando?** Use o pacote "tradução" e substitua tudo. Não guarde cópias antigas da DLL dentro de `BepInEx\plugins`: o BepInEx carrega qualquer DLL que estiver lá.
+**Atualizando?** Faça a mesma coisa: extraia o ZIP novo e substitua tudo. Não guarde cópias antigas da DLL dentro de `BepInEx\plugins`: o BepInEx carrega qualquer DLL que estiver lá.
 
 **Desinstalar:** apague `BepInEx\plugins\EsotericEbbBR`. Para remover o BepInEx também, apague `BepInEx`, `dotnet`, `winhttp.dll` e `doorstop_config.ini`.
 
