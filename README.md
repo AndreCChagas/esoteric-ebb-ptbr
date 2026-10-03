@@ -2,9 +2,11 @@
 
 Tradução de fã do **Esoteric Ebb** para o português do Brasil: diálogos, escolhas, menus, itens, magias e glossário.
 
+📖 **Guia completo na Steam:** [Tradução em Português BR para Esoteric Ebb](https://steamcommunity.com/sharedfiles/filedetails/?id=3754072021)
+
 ## ⬇️ Download
 
-Baixe o arquivo `EsotericEbb-PTBR-<versão>-completo.zip` da versão mais recente em **[Releases](https://github.com/AndreCChagas/esoteric-ebb-ptbr/releases/latest)**.
+Baixe o arquivo `EsotericEbb-PTBR-<versão>.zip` da versão mais recente em **[Releases](https://github.com/AndreCChagas/esoteric-ebb-ptbr/releases/latest)**.
 
 O pacote já vem com o BepInEx (o carregador de mods) e serve tanto para instalar do zero quanto para atualizar.
 
@@ -13,6 +15,12 @@ O pacote já vem com o BepInEx (o carregador de mods) e serve tanto para instala
 1. Na Steam: botão direito em **Esoteric Ebb** → **Gerenciar** → **Explorar arquivos locais**.
 2. Extraia **todo** o conteúdo do ZIP nessa pasta (onde está `Esoteric Ebb.exe`) e substitua os arquivos.
 3. Abra o jogo. A **primeira** abertura demora alguns minutos enquanto o BepInEx se prepara.
+
+**Steam Deck:** no Modo Desktop, extraia o ZIP na pasta do jogo e, em **Propriedades → Geral → Parâmetros de Inicialização**, cole:
+
+```
+WINEDLLOVERRIDES="winhttp=n,b" %command%
+```
 
 **Atualizando?** Faça a mesma coisa: extraia o ZIP novo e substitua tudo. Não guarde cópias antigas da DLL dentro de `BepInEx\plugins`: o BepInEx carrega qualquer DLL que estiver lá.
 
