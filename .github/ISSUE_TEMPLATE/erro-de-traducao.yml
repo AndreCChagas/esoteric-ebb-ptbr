@@ -1,0 +1,39 @@
+name: Erro na tradução
+description: Texto errado, sem tradução, em outro idioma, cortado ou um bug do mod.
+title: "[Erro] "
+labels: ["bug"]
+body:
+  - type: input
+    id: versao
+    attributes:
+      label: Versão da tradução
+      description: Está no nome do ZIP que você baixou (ex.: v48).
+      placeholder: v48
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de problema
+      options:
+        - Texto em inglês (sem tradução)
+        - Texto em russo
+        - Texto em branco ou sumindo
+        - Erro de português (acento, letra trocada, concordância)
+        - Texto cortado ou saindo da caixa
+        - O jogo não abre ou trava
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu?
+      description: Onde no jogo (cena, personagem, menu) e o que apareceu na tela.
+    validations:
+      required: true
+  - type: textarea
+    id: print
+    attributes:
+      label: Print e log
+      description: Arraste aqui o print da tela e, se puder, o arquivo BepInEx\LogOutput.log.
