@@ -7,8 +7,8 @@ body:
     id: versao
     attributes:
       label: Versão da tradução
-      description: Está no nome do ZIP que você baixou (ex.: 1.0.7).
-      placeholder: 1.0.7
+      description: Está no nome do ZIP que você baixou (ex.: 1.0.8).
+      placeholder: 1.0.8
     validations:
       required: true
   - type: dropdown
