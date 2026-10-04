@@ -8,7 +8,7 @@ Tradução de fã do **Esoteric Ebb** para o português do Brasil: diálogos, es
 
 Baixe o arquivo `EsotericEbb-PTBR-<versão>.zip` da versão mais recente em **[Releases](https://github.com/AndreCChagas/esoteric-ebb-ptbr/releases/latest)**.
 
-O pacote já vem com o BepInEx (o carregador de mods) e serve tanto para instalar do zero quanto para atualizar.
+O pacote já vem com o BepInEx (o carregador de mods).
 
 ## 🛠️ Instalação
 
@@ -22,9 +22,17 @@ O pacote já vem com o BepInEx (o carregador de mods) e serve tanto para instala
 WINEDLLOVERRIDES="winhttp=n,b" %command%
 ```
 
-**Atualizando?** Faça a mesma coisa: extraia o ZIP novo e substitua tudo. Não guarde cópias antigas da DLL dentro de `BepInEx\plugins`: o BepInEx carrega qualquer DLL que estiver lá.
+### ⚠️ Atualizando da versão 1.0.x
 
-**Desinstalar:** apague `BepInEx\plugins\EsotericEbbBR`. Para remover o BepInEx também, apague `BepInEx`, `dotnet`, `winhttp.dll` e `doorstop_config.ini`.
+A versão 2.0 usa um plugin novo. Faça uma **instalação limpa**:
+
+1. Na pasta do jogo, **apague** a pasta `BepInEx`, a pasta `dotnet`, `winhttp.dll`, `doorstop_config.ini` e `Untranslated.txt` (se existir).
+2. Extraia o ZIP novo na pasta do jogo.
+3. Abra o jogo (a primeira abertura volta a demorar alguns minutos).
+
+> **Usa outros mods?** Apagar a pasta `BepInEx` remove todos eles. Nesse caso, apague só a pasta `BepInEx\plugins\EsotericEbbBR` e extraia o ZIP por cima. Se o plugin antigo ficar na pasta por engano, o novo o desativa sozinho na primeira abertura; feche e abra o jogo de novo.
+
+**Desinstalar:** apague `BepInEx\plugins\EsotericEbbPTBR`. Para remover o BepInEx também, apague `BepInEx`, `dotnet`, `winhttp.dll` e `doorstop_config.ini`.
 
 ## 🐞 Encontrou um erro?
 
@@ -36,8 +44,8 @@ Abra uma **[Issue](https://github.com/AndreCChagas/esoteric-ebb-ptbr/issues/new/
 
 ## 🙏 Créditos
 
-- **Tradução PT-BR:** SirChagas
-- **Mod de tradução original (russo):** clarkkent - [boosty.to/clarkkent](https://boosty.to/clarkkent)
+- **Tradução PT-BR e plugin:** SirChagas
+- **Agradecimento:** clarkkent - [boosty.to/clarkkent](https://boosty.to/clarkkent), autor do mod russo que deu origem a este projeto
 - **[BepInEx](https://github.com/BepInEx/BepInEx)** (LGPL-2.1)
 
 *Esoteric Ebb* é propriedade de seus desenvolvedores. Esta é uma tradução feita por fãs, gratuita e sem fins lucrativos.
