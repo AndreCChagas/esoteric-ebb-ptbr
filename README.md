@@ -22,6 +22,10 @@ O pacote já vem com o BepInEx (o carregador de mods).
 WINEDLLOVERRIDES="winhttp=n,b" %command%
 ```
 
+### Joga no beta "localization" da Steam?
+
+O beta tem um sistema de idiomas oficial. Para ele há um pacote **sem BepInEx**: baixe o `EsotericEbb-PTBR-BETA-CSV-<versão>.zip` na [página de versões](../../releases/latest), extraia em `Esoteric Ebb_Data\StreamingAssets\Localization` e escolha **"Português (BR)"** em Options > Language.
+
 ### Atualizando da 2.0 a 2.3
 
 A partir da 2.4 o pacote traz um BepInEx mais novo (**be.788**), necessário para a atualização do jogo com o novo sistema de idiomas.
