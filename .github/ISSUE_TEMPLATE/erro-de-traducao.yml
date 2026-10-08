@@ -7,8 +7,8 @@ body:
     id: versao
     attributes:
       label: Versão da tradução
-      description: Aparece no rodapé das Configurações (Options) do jogo e no nome do ZIP que você baixou (ex.: 2.3.0).
-      placeholder: 2.3.0
+      description: Aparece no rodapé das Configurações (Options) do jogo e no nome do ZIP que você baixou (ex.: 2.4.0).
+      placeholder: 2.4.0
     validations:
       required: true
   - type: dropdown

@@ -22,6 +22,16 @@ O pacote já vem com o BepInEx (o carregador de mods).
 WINEDLLOVERRIDES="winhttp=n,b" %command%
 ```
 
+### Atualizando da 2.0 a 2.3
+
+A partir da 2.4 o pacote traz um BepInEx mais novo (**be.788**), necessário para a atualização do jogo com o novo sistema de idiomas.
+
+1. Na pasta do jogo, **apague** as pastas `BepInEx\core` e `dotnet` (as pastas `BepInEx\plugins` e `BepInEx\config` podem ficar).
+2. Extraia o ZIP novo na pasta do jogo e substitua os arquivos.
+3. Abra o jogo. A primeira abertura volta a demorar alguns minutos.
+
+> **Trocou o jogo de ramo na Steam** (normal ↔ beta)? A Steam apaga o BepInEx e a tradução. Basta extrair o ZIP de novo.
+
 ### ⚠️ Atualizando da versão 1.0.x
 
 A versão 2.0 usa um plugin novo. Faça uma **instalação limpa**:
